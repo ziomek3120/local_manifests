@@ -22,4 +22,7 @@
 
   <!-- Memecam -->
   <project name="TheMysticle/vendor_xiaomi_camera" path="vendor/xiaomi/camera" remote="codeberg" revision="lineage-22.2" />
+  
+  <!-- Vendor bcr -->
+  <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 </manifest>
