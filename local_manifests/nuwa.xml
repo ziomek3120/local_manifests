@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote sources -->
+  <remote name="codeberg" fetch="https://codeberg.org" />
+  <remote name="github" fetch="https://github.com" />
+  
+  <!-- Device trees -->
+  <project name="crdroidandroid/android_device_xiaomi_nuwa" path="device/xiaomi/nuwa" remote="github" revision="16.0" />
+  <project name="crdroidandroid/android_device_xiaomi_sm8550-common" path="device/xiaomi/sm8550-common" remote="github" revision="16.0" />
+
+  <!-- Vendor blobs -->
+  <project name="TheMysticle/proprietary_vendor_xiaomi_nuwa" path="vendor/xiaomi/nuwa" remote="codeberg" revision="lineage-23.0" />
+  <project name="TheMysticle/proprietary_vendor_xiaomi_sm8550-common" path="vendor/xiaomi/sm8550-common" remote="codeberg" revision="lineage-23.0" />
+
+  <!-- Hardware -->
+  <project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="16.0" />
+
+  <!-- Kernel -->
+  <project name="crdroidandroid/android_kernel_xiaomi_sm8550" path="kernel/xiaomi/sm8550" remote="github" revision="16.0" />
+  <project name="crdroidandroid/android_kernel_xiaomi_sm8550-devicetrees" path="kernel/xiaomi/sm8550-devicetrees" remote="github" revision="16.0" />
+  <project name="crdroidandroid/android_kernel_xiaomi_sm8550-modules" path="kernel/xiaomi/sm8550-modules" remote="github" revision="16.0" />
+
+  <!-- Memecam -->
+  <project name="TheMysticle/vendor_xiaomi_camera" path="vendor/xiaomi/camera" remote="codeberg" revision="lineage-22.2" />
+
+</manifest>
