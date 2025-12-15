@@ -5,8 +5,8 @@
   <remote name="github" fetch="https://github.com" />
   
   <!-- Device trees -->
-  <project name="crdroidandroid/android_device_xiaomi_nuwa" path="device/xiaomi/nuwa" remote="github" revision="16.0" />
-  <project name="crdroidandroid/android_device_xiaomi_sm8550-common" path="device/xiaomi/sm8550-common" remote="github" revision="16.0" />
+  <project name="ziomek3120/android_device_xiaomi_nuwa" path="device/xiaomi/nuwa" remote="github" revision="alpha-16.1" />
+  <project name="ziomek3120/android_device_xiaomi_sm8550-common" path="device/xiaomi/sm8550-common" remote="github" revision="alpha-16.1" />
 
   <!-- Vendor blobs -->
   <project name="TheMysticle/proprietary_vendor_xiaomi_nuwa" path="vendor/xiaomi/nuwa" remote="codeberg" revision="lineage-23.0" />
@@ -22,5 +22,4 @@
 
   <!-- Memecam -->
   <project name="TheMysticle/vendor_xiaomi_camera" path="vendor/xiaomi/camera" remote="codeberg" revision="lineage-22.2" />
-
 </manifest>
