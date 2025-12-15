@@ -2,7 +2,6 @@
 <manifest>
   <!-- Remote sources -->
   <remote name="codeberg" fetch="https://codeberg.org" />
-  <remote name="github" fetch="https://github.com" />
   
   <!-- Device trees -->
   <project name="ziomek3120/android_device_xiaomi_nuwa" path="device/xiaomi/nuwa" remote="github" revision="alpha-16.1" />
