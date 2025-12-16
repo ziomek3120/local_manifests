@@ -13,7 +13,7 @@
   <project name="crdroidandroid/proprietary_vendor_oneplus_ir" path="vendor/oneplus/ir" remote="gitlab" revision="16.0" />
   
   <!-- Hardware -->
-  <project name="crdroidandroid/android_hardware_oplus" path="hardware/oplus" remote="github" revision="16.0" />
+  <project name="ziomek3120/android_hardware_oplus" path="hardware/oplus" remote="github" revision="alpha-16.1" />
 
   <!-- Kernel -->
   <project name="crdroidandroid/android_kernel_oneplus_sm8750" path="kernel/oneplus/sm8750" remote="github" revision="16.0" />
